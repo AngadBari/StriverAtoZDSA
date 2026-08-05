@@ -16,8 +16,9 @@ int main()
 //NOte :-
           //1. "/n" & endl - New Line
 
-// Take Input
 
+
+// Take Input
 
 int main()
 {
@@ -27,8 +28,9 @@ int main()
     return 0;
 }
 
-//Data Types
 
+
+//Data Types
 
 int main()
 {
