@@ -123,7 +123,92 @@ int main()
                                 cout << "Invalid Marks" << endl;
                                 }
                     }
-                                            
+                          
+//Nested if-else Statement      
+
+/* Q. Take Input From User and Check Whether he is eligible for job or not.
+
+     condition:
+       1. Age  18 >=- Eligible for job
+       2. Age 50>=  && <= 57 - Eligible for job but retirement soon .
+       3. Age >= 57 - Retirement time  */
+
+
+                    int main()
+                    {
+
+                    int age;
+                    cin>> age;
+
+                    if(age<=18)
+                    {
+                        cout<<"Your are eligible for job"<<endl;
+                    }
+                    else if (age<=57)
+                    {
+                        cout<<"Your are eligible for job"<<endl;
+                        if(age>=50)
+                        {
+                        cout<<"but retirement soon"<<endl;
+                        }
+                    }
+                    else
+                    {
+                        cout<<"retirement time"<<endl;
+                    }
+
+                    
+             }
+
+
+
+//Switch Statement
+
+/* 
+     Q.Take Input from user day no and print day name.
+        for 1 - Monday 
+        for 2 - Tuesday...
+*/
+
+\
+            int main()
+            {
+
+            int day;
+            cin>>day;
+
+            switch(day)
+            {
+                case 1:
+                cout <<"Monday";
+                break;
+
+                case 2:
+                    cout <<"Tuesday";
+                    break;
+
+                case 3:
+                    cout <<"Wednesday";
+                    break;
+                case 4:
+                    cout <<"Thursday";
+                    break;
+                case 5: 
+                    cout <<"Friday";
+                    break;
+                case 6: 
+                    cout <<"Saturday";
+                    break;
+                case 7:
+                    cout <<"Sunday";
+                    break;      
+                default:
+                    cout <<"Enter no between 1 to 7";
+            }
+
+
+  
+}
 
 
 
