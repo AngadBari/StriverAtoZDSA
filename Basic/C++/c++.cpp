@@ -211,6 +211,39 @@ int main()
 }
 
 
+//Arrays
+
+int main()
+        {
+
+        //1-D Array
+        int arr[5];
+        cin >> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4];
+        cout << arr[4];
+
+
+        //2-D Array
+        int arr2[3][3];
+        arr2[0][1]=5;
+        cout << arr2[0][1];
+          
+        }
+/* Note 1.Indexing  
+        2. 2-D--> arr[row][col] */
+
+
+
+// String
+     
+int main()
+        {
+           string s="Angad";
+           cout<<s[3];
+
+           int l=s.size();
+           cout<<s[l-1];
+        }
+
 
 
 
