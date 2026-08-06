@@ -213,21 +213,21 @@ int main()
 
 //Arrays
 
-int main()
-        {
+            int main()
+                    {
 
-        //1-D Array
-        int arr[5];
-        cin >> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4];
-        cout << arr[4];
+                    //1-D Array
+                    int arr[5];
+                    cin >> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4];
+                    cout << arr[4];
 
 
-        //2-D Array
-        int arr2[3][3];
-        arr2[0][1]=5;
-        cout << arr2[0][1];
-          
-        }
+                    //2-D Array
+                    int arr2[3][3];
+                    arr2[0][1]=5;
+                    cout << arr2[0][1];
+                    
+                    }
 /* Note 1.Indexing  
         2. 2-D--> arr[row][col] */
 
@@ -235,14 +235,128 @@ int main()
 
 // String
      
-int main()
-        {
-           string s="Angad";
-           cout<<s[3];
+        int main()
+                {
+                string s="Angad";
+                cout<<s[3];
 
-           int l=s.size();
-           cout<<s[l-1];
-        }
+                int l=s.size();
+                cout<<s[l-1];
+                }
+
+
+//Loop
+
+
+                int main()
+                {
+
+                //  1 for
+
+                // Q.print name 10 times.
+
+                        for (int i = 1; i <= 10; i++)
+                        {
+                        cout << "Angad" << endl;
+                        }
+
+                // 2.While
+
+                        int j=1;
+                        while (j<=10)
+                            {
+                            cout<< "Angad"<<endl;
+                            j++;
+                        }
+
+                
+
+                //3. do-while
+
+
+                        int z = 1;
+                        do {
+                            cout << "Angad";
+                            z++;
+                        } while (z <= 10);
+
+                        return 0;
+
+                }
+
+//Funtion
+
+
+                    void printname()
+                    {
+                    cout << " hey Angad " << endl;
+                    }
+
+                    // 2.Parametrized
+                    void printname1(string name)
+                    {
+                    cout << " hey " << name << " ! " << endl;
+                    }
+
+                    // return
+
+                    // Q. Take 2 number and sum
+
+                    int sum(int num1, int num2)
+                    {
+                    int res = num1 + num2;
+                    return res;
+                    }
+
+                    // Pass by Value
+                    void doSomthing(int num)
+                    {
+                    cout << num << endl;
+                    num += 5;
+                    cout << num << endl;
+                    num += 5;
+                    cout << num << endl;
+                    }
+
+
+
+                    // Pass by Ref
+                    void doKuch(string &s)
+                    {
+                    cout<<s<<endl;
+                    s[0]='t';
+                    
+                    }
+
+                    int main()
+                    {
+                    //  printname();
+
+                            string name = "Aysuh";
+                            //  printname1(name);
+
+                            int num1, num2;
+                            cin >> num1 >> num2;
+                            //  cout<< sum(num1,num2);
+
+                            // pass by value (send copy,  not chnage orignal )
+                            int num = 10;
+                            doSomthing(num);
+                            cout<<num<<endl;
+
+
+                            //pass by ref (Change Orignal use &)
+
+                            string s="Raj";
+                            
+                            doKuch(s);
+                            cout<<s<<endl;
+
+
+                    return 0;
+                    }
+
+
 
 
 
