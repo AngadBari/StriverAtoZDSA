@@ -102,23 +102,23 @@ int main()
                         {
                         cout << "E" << endl;
                         }
-                        else if( marks >= 45 && marks <= 49)
+                    else if( marks >= 45 && marks <= 49)
                         {
                         cout << "D" << endl;
                         }
-                        else if( marks >= 50 && marks <= 59)
+                    else if( marks >= 50 && marks <= 59)
                             {
                             cout << "C" << endl;
                             }
-                        else if( marks >= 60 && marks <= 79)
+                    else if( marks >= 60 && marks <= 79)
                             {
                                 cout << "B" << endl;
                             }
-                        else if( marks >= 80 && marks <= 100)
+                    else if( marks >= 80 && marks <= 100)
                                 {
                                 cout << "A" << endl;
                                 }
-                        else
+                    else
                                 {
                                 cout << "Invalid Marks" << endl;
                                 }
